@@ -35,8 +35,8 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 dag = DAG(
-    dag_id='rohan-dag-astro',
-    description='first project with astronomer platform',
+    dag_id='scrap-dag-ast',
+    description='DAG made for web scrap project',
     default_args=default_args,
     schedule_interval='* * * * *',
     tags=['data-pipeline-dag'],
