@@ -6,7 +6,7 @@
 
 In this blog, I'm going to tell you how to schedule your project with Apache Airflow, so that you don't have to trigger your function/projects on your own, it will be taken care of by DAGs.
 
-### Brief Introduction to Airflow and DAGs
+### Brief Introduction of Airflow and DAGs
 
 <mark>Apache Airflow </mark> is used for the **scheduling and orchestration of data pipelines or workflows**. Orchestration of data pipelines refers to the sequencing, coordination, scheduling, and managing of complex data pipelines from diverse sources.
 
