@@ -53,14 +53,14 @@ with dag:
 run_dag
 ```
 
-If you want to insert an email notification in above codes so that you can get notifications then use the below codes...
+If you want to insert an email notification in the above codes so that you can get notifications then use the below codes...
 
 ```python
 import smtplib
 def send_mail():
     server = smtplib.SMTP_SSL('smtp.gmail.com',465)
     server.ehlo()
-    #server.starttls()
+    server.starttls()
     server.ehlo()
     server.login('xyz@gmail.com','xxxxxxxxxxxxx') # use temporary passwords from google passwords
     
