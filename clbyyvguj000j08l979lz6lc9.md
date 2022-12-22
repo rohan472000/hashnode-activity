@@ -1,4 +1,4 @@
-# Data Pre Processing
+# Data pre-processing
 
 ### Introduction
 
