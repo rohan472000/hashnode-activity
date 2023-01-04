@@ -1,6 +1,6 @@
 # Dev Retro 2022,
 
-In the daily life of Software Engineers, the only common friend is open-source websites or communities like stack overflow etc. These websites help us a lot when we are stuck alone with a problem. Thanks to all the open sources for being with us throughout every journey.
+In the daily life of Software Engineers, the only common friend is open-source websites or communities like stackoverflow etc. These websites help us a lot when we are stuck alone with a problem. Thanks to all the open sources for being with us throughout every journey.
 
 ## Challenges and Lessons:-
 
