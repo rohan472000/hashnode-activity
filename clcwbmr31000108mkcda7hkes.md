@@ -27,7 +27,7 @@ Pandas is a popular and powerful library for data manipulation and analysis in P
 
 ### Alternatives
 
-Note:- If possible then try to use SQL queries(static or dynamic) for dealing with large datasets in a table before going for the below alternatives.
+If possible then try to use SQL queries(static or dynamic) for dealing with large datasets in a table before going for the below alternatives.
 
 Alternatives to Pandas for working with large datasets include:
 
