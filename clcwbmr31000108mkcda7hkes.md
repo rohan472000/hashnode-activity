@@ -8,8 +8,7 @@ The two primary data structures in pandas are the Series (1-dimensional) and Dat
 
 Pandas provides a wide range of tools for data manipulation and analysis, including data filtering, aggregation, and transformation. It also provides functionality for handling missing data and working with time series data.
 
-###   
-Realizations
+### Realizations
 
 Recently, I came across a situation in an ongoing project where I had to look for an alternative to pandas, this happened when the data was 1 Petabyte and even more.
 
