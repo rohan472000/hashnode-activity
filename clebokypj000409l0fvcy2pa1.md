@@ -1,6 +1,6 @@
 # How  I  automated  'Monitoring Job'
 
-My friend is a Software Engineer at a recognized MNC, working as Support Engineer on a project, I have been watching my friend doing a monitoring job specifically in that project.
+My friend is a Software Engineer at a recognized MNC, working as Support Engineer on a project, I have been watching my friend doing a monitoring job specifically in that project from last 5 month.
 
 His job is to check every mail, their criticality, if it is high/medium/low then he has to forward it to the responsible team to fix it as soon as possible, also in every mail he has to check some more parameters like from which team or client this error/alert is coming.
 
