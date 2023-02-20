@@ -24,7 +24,7 @@ As they are using their official outlook mail for work, whose API can't be avail
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676828380251/f5be819e-e5ed-440b-a885-d859632aa42d.png align="center")
 
-I tried with 4-5 Gmail for which I need to make some changes in the security of every Gmail like a less secure app option is made on.
+I tried with 4-5 Gmail account for which I need to make some changes in the security of every Gmail like a less secure app option is made on.
 
 ### Code
 
