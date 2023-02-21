@@ -56,8 +56,8 @@ def send_email(to, subject, email_message):
 The below code loop through all emails and do operation like checking the subject and body, then based on cases it forwards the mail.
 
 ```python
-# Connect to the Gmail server
-mail = smtplib.SMTP_SSL('smtp.gmail.com', 465) 
+# Connect to the Gmail server using IMAP
+mail = imaplib.IMAP4_SSL("imap.gmail.com")
 mail.login("insane@gmail.com", "xxxxxxxxxxxxxx")
 mail.select("inbox")
 
