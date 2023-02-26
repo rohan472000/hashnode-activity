@@ -34,7 +34,7 @@ I'm going to tell you how you can see an article's sentiment(rated from -1 to 1)
 >>> client = bigquery.Client(credentials=credentials, project='project-id')
 ```
 
-1. Define a function to extract articles from hashnode API.
+1. Define a function to extract articles from hashnode API. Please change the username, and keep the username from which you are going to fetch articles.
     
 
 ```python
