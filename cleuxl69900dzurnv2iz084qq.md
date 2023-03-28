@@ -1,8 +1,8 @@
 ---
-title: "GitHub : The place where we fork"
+title: "Data Engineering with GitHub Repos"
 datePublished: Sun Mar 05 2023 05:06:39 GMT+0000 (Coordinated Universal Time)
 cuid: cleuxl69900dzurnv2iz084qq
-slug: github-the-place-where-we-fork
+slug: data-engineering-with-github-repos
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677948382491/19ea1c68-15a8-4332-b4c7-1385c658b68d.png
 tags: github, python, sql, gcp, looker-studio
 
