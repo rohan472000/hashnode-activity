@@ -1,8 +1,9 @@
 ---
 title: "Getting Started with Data Engineering: A Step-by-Step Guide"
-datePublished: Sat Apr 22 2023 19:12:58 GMT+0000 (Coordinated Universal Time)
+datePublished: Sun Apr 23 2023 19:55:36 GMT+0000 (Coordinated Universal Time)
 cuid: clgscyg1b000009l8b3d007cl
 slug: getting-started-with-data-engineering-a-step-by-step-guide
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/4-EeTnaC1S4/upload/51b5c11a511c26def7d2a31d79ada7ae.jpeg
 tags: data, github, python, gcp, dataengineering
 
 ---
