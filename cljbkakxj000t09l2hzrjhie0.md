@@ -8,11 +8,15 @@ tags: github, python, opensource, apache, airflow
 
 ---
 
+### Motivation
+
+Recently my PR for adding the `difference between Deferrable and Non-Deferrable Operators` got merged in `apache-airflow`, you can see it here - [PR Link](https://github.com/apache/airflow/pull/31840). So I thought to explain it through a blog.
+
 ### Introduction
 
 Airflow sensors are a special kind of operator that is designed to wait for something to happen. When sensors run, they check to see if a certain condition is met before they are marked successful and let their downstream tasks execute. There are two modes available in Airflow sensors, "poke" and "reschedule". In this blog, we will discuss the difference between the "reschedule" mode and the "deferrable" flag in sensors.
 
-### Reschedule Mode:
+### Reschedule Mode
 
 * When the sensor mode is set to "reschedule", if the criteria are not met, then the sensor releases its worker slot and reschedules the next check for a later time.
     
@@ -23,7 +27,7 @@ Airflow sensors are a special kind of operator that is designed to wait for some
 * "up\_for\_reschedule" means your sensor is going to be rescheduled at a later time, or more specifically at the `current date + wait_interval`.
     
 
-### Deferrable Flag:
+### Deferrable Flag
 
 * The "deferrable" flag is used to mark a task as deferrable, which means that it can be deferred to a later time if it fails to run.
     
@@ -41,7 +45,7 @@ Airflow sensors are a special kind of operator that is designed to wait for some
 * If the expected runtime is quite long, then go with the "reschedule" mode.
     
 
-### Code snippet to understand better:
+### Code snippet to understand better
 
 Below is the example code snippet that demonstrates the difference between the "reschedule" mode and the "deferrable" flag in sensors:
 
@@ -92,4 +96,4 @@ The `waiting_for_file_deferrable` sensor uses the "deferrable" flag, which means
 
 ### Conclusion
 
-It's worth noting that bugs and errors in the sensors may be masked by timeouts, which however may be mitigated by properly written unit tests. Some overhead is added to the scheduler, as such polling intervals may not be too frequent, and a separate process is spawned. In conclusion, the "reschedule" mode and the "deferrable" flag in sensors are used to free up resources and reschedule tasks for a later time if they fail to run. The "reschedule" mode is best for long-running sensors, while the "deferrable" flag is only used in a few sensors. It's important to choose the appropriate mode based on the expected runtime of your sensor and the wait\_interval.
+It's worth noting that bugs and errors in the sensors may be masked by timeouts, which however may be mitigated by properly written unit tests. Some overhead is added to the scheduler, as such polling intervals may not be too frequent, and a separate process is spawned. In conclusion, the "reschedule" mode and the "deferrable" flag in sensors are used to free up resources and reschedule tasks for a later time if they fail to run. The "reschedule" mode is best for long-running sensors, while the "deferrable" flag is only used in a few sensors. It's important to choose the appropriate mode based on the expected runtime of your sensor and the wait\_interval
