@@ -8,9 +8,13 @@ tags: java, data-structures, cheatsheet, dsa
 
 ---
 
+### Introduction
+
 In this blog post, we will see time complexity and delve into the average time complexities of various common data structures for insertion, deletion, and traversal operations. Understanding these complexities will empower you to make informed decisions when choosing the right data structure for your specific use case, ultimately leading to more efficient and scalable code.
 
 For each data structure, we will explore the average time complexities associated with insertion, deletion, and traversal operations. It is important to note that the time complexities mentioned are averages and may vary in certain scenarios.
+
+### O(n)
 
 By the end of this blog post, you will have a solid understanding of how different data structures perform when it comes to these essential operations, enabling you to choose the most suitable data structure for your specific needs. So, let's dive in and unlock the world of time complexity in data structures!
 
