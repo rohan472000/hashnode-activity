@@ -22,7 +22,7 @@ By the end of this blog post, you will have a solid understanding of how differe
         
     * Deletion: O(n) - Deleting an element from the middle of the array requires shifting elements, resulting in O(n) time complexity.
         
-    * Traversal: O(n) - Accessing each element in the array requires visiting each index, resulting in O(n) time complexity.
+    * Traversal: O(n) - Accessing each element in the array requires visiting each index, so resulting in O(n) time complexity.
         
 2. **<mark>Linked List</mark>**:
     
