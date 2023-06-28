@@ -14,7 +14,7 @@ In this blog post, we will see time complexity and delve into the average time c
 
 For each data structure, we will explore the average time complexities associated with insertion, deletion, and traversal operations. It is important to note that the time complexities mentioned are averages and may vary in certain scenarios.
 
-### O(n)
+### O(n) - Insertion, Deletion, Traversal
 
 By the end of this blog post, you will have a solid understanding of how different data structures perform when it comes to these essential operations, enabling you to choose the most suitable data structure for your specific needs. So, let's dive in and unlock the world of time complexity in data structures!
 
