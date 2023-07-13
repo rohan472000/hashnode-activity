@@ -43,3 +43,8 @@ You can go through this official doc of Google - [https://cloud.google.com/compo
 5. **Configure the KPO (Kubernetes Pod Operator):** In the KPO, specify the Docker image URL from the container registry where you pushed the image. Additionally, provide any necessary arguments, volumes, and environment variables required by your task.
     
 6. **Deploy and Execute:** Deploy your updated DAG to Google Cloud Composer. Composer will utilize a Google Kubernetes Engine (GKE) cluster to execute the tasks specified in the DAG. The KPO will spawn a pod from the custom Docker image, ensuring the correct Python version and dependencies are available during execution.
+    
+
+### Conclusion
+
+Managing Python version dependencies in Google Cloud Composer can be achieved through containerization. By building and deploying a custom Docker image that includes the desired Python version and dependencies, you can ensure compatibility and execute your DAGs smoothly. This approach provides flexibility and enables the use of Python packages that require higher Python versions, expanding the capabilities of your workflows in Google Cloud Composer.
